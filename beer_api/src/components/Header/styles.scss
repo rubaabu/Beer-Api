@@ -1,0 +1,36 @@
+header {
+  @media only screen and (max-width: 600px) {
+    padding-top: 20px;
+    flex-direction: column;
+  }
+
+  @media only screen and (min-width: 600px) {
+    flex-direction: row;
+  }
+
+  .title {
+    flex: auto;
+    align-self: center;
+  }
+
+  .menu {
+    font-size: 16px;
+    margin-right: 20px;
+    color: white;
+    align-self: center;
+
+    ul {
+      list-style-type: none;
+      display: inline-flex;
+
+      li {
+        margin-right: 20px;
+
+        a {
+          color: #ffffff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
